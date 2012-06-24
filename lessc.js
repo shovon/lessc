@@ -15,13 +15,15 @@ define('lessc', [], function () {
                 var lessParser = new less.Parser();
 
                 lessParser.parse(lessSrc, function (e, css) {
-                    callback(e, css.toCSS());
+                    callback(e, css.toCSS({ compress: true }).trim());
                 });
             });
         } else {
             var less = module.require('less');
-            less.render(lessSrc, function (e, css) {
-                callback(e, css);
+            var lessParser = new less.Parser();
+
+            lessParser.parse(lessSrc, function (e, css) {
+                callback(e, css.toCSS({ compress: true }).trim());
             });
         }
     };
