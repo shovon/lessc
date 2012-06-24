@@ -13,8 +13,8 @@ Since it's a jam package, you would install it just like any other.
 And you would use it like so.
 
     require('lessc!less/style.less', function () {
-        // Just loading a less text file will load compile things for you, and
-        // you won't need to worry about it.
+        // Just loading a less text file will compile things for you, and you
+        // won't need to worry about it.
     });
 
 And what about optmization? Well, just calling `jam compile` should do the trick.
