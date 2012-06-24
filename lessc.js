@@ -68,7 +68,7 @@ define('lessc', [], function () {
             if (moduleName in buildMap) {
                 var text = jsEscape(buildMap[moduleName]);
                 writeBuild(
-                    "(function () {" +
+                    ";(function () {" +
                         "var theStyle = '" + text + "';" +
                         "var styleTag = document.createElement('style');" +
                         "styleTag.type = 'text/css';" +

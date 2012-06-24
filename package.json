@@ -1,6 +1,6 @@
 {
     "name": "lessc",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "A plugin to compile less files.",
     "dependencies": {
         "less": "1.3.x"
