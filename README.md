@@ -19,4 +19,4 @@ And you would use it like so.
 
 And what about optmization? Well, just calling `jam compile` should do the trick.
 
-
+ps. Special thanks goes to [@**ryanramage**](http://github.com/ryanramage)
