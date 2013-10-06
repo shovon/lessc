@@ -1,3 +1,7 @@
+# Attention: I'm looking for a new maintainer
+
+I no longer want to work on this project anymore. I use Bower and a dynamic compiler to help me develop projects that use LESS. I don't see the need for this anymore.
+
 # lessc
 
 This Jam package will allow your web app to load LESS files, compile them to CSS, and apply the styles to your page, on the file.
